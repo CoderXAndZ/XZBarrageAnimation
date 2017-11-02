@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		849127E11FA9C4FE00A87B83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 849127E01FA9C4FE00A87B83 /* AppDelegate.m */; };
-		849127E41FA9C4FE00A87B83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849127E31FA9C4FE00A87B83 /* ViewController.m */; };
-		849127E71FA9C4FE00A87B83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849127E51FA9C4FE00A87B83 /* Main.storyboard */; };
 		849127E91FA9C4FE00A87B83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849127E81FA9C4FE00A87B83 /* Assets.xcassets */; };
-		849127EC1FA9C4FE00A87B83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849127EA1FA9C4FE00A87B83 /* LaunchScreen.storyboard */; };
 		849127EF1FA9C4FE00A87B83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 849127EE1FA9C4FE00A87B83 /* main.m */; };
 		849127F91FA9C4FF00A87B83 /* XZBarrageAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849127F81FA9C4FF00A87B83 /* XZBarrageAnimationTests.m */; };
+		8495BD421FAAADEB00BC52A4 /* XZBulletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849128051FA9C82C00A87B83 /* XZBulletViewController.m */; };
+		8495BD431FAAADEE00BC52A4 /* XZBulletManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 849128081FA9C82C00A87B83 /* XZBulletManager.m */; };
+		8495BD441FAAADF100BC52A4 /* XZBulletView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8491280B1FA9C82C00A87B83 /* XZBulletView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +30,19 @@
 		849127DC1FA9C4FE00A87B83 /* XZBarrageAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XZBarrageAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849127DF1FA9C4FE00A87B83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		849127E01FA9C4FE00A87B83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		849127E21FA9C4FE00A87B83 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		849127E31FA9C4FE00A87B83 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		849127E61FA9C4FE00A87B83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		849127E81FA9C4FE00A87B83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		849127EB1FA9C4FE00A87B83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		849127ED1FA9C4FE00A87B83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		849127EE1FA9C4FE00A87B83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		849127F41FA9C4FF00A87B83 /* XZBarrageAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XZBarrageAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		849127F81FA9C4FF00A87B83 /* XZBarrageAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZBarrageAnimationTests.m; sourceTree = "<group>"; };
 		849127FA1FA9C4FF00A87B83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849128041FA9C82C00A87B83 /* XZBulletViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZBulletViewController.h; sourceTree = "<group>"; };
+		849128051FA9C82C00A87B83 /* XZBulletViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZBulletViewController.m; sourceTree = "<group>"; };
+		849128071FA9C82C00A87B83 /* XZBulletManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZBulletManager.h; sourceTree = "<group>"; };
+		849128081FA9C82C00A87B83 /* XZBulletManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZBulletManager.m; sourceTree = "<group>"; };
+		8491280A1FA9C82C00A87B83 /* XZBulletView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZBulletView.h; sourceTree = "<group>"; };
+		8491280B1FA9C82C00A87B83 /* XZBulletView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZBulletView.m; sourceTree = "<group>"; };
+		8495BD471FAAAFF600BC52A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,15 +84,12 @@
 		849127DE1FA9C4FE00A87B83 /* XZBarrageAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				849128061FA9C82C00A87B83 /* Model */,
+				849128091FA9C82C00A87B83 /* View */,
+				849128031FA9C82C00A87B83 /* Controller */,
+				8495BD451FAAAF8600BC52A4 /* Support Files */,
 				849127DF1FA9C4FE00A87B83 /* AppDelegate.h */,
 				849127E01FA9C4FE00A87B83 /* AppDelegate.m */,
-				849127E21FA9C4FE00A87B83 /* ViewController.h */,
-				849127E31FA9C4FE00A87B83 /* ViewController.m */,
-				849127E51FA9C4FE00A87B83 /* Main.storyboard */,
-				849127E81FA9C4FE00A87B83 /* Assets.xcassets */,
-				849127EA1FA9C4FE00A87B83 /* LaunchScreen.storyboard */,
-				849127ED1FA9C4FE00A87B83 /* Info.plist */,
-				849127EE1FA9C4FE00A87B83 /* main.m */,
 			);
 			path = XZBarrageAnimation;
 			sourceTree = "<group>";
@@ -101,6 +101,44 @@
 				849127FA1FA9C4FF00A87B83 /* Info.plist */,
 			);
 			path = XZBarrageAnimationTests;
+			sourceTree = "<group>";
+		};
+		849128031FA9C82C00A87B83 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				849128041FA9C82C00A87B83 /* XZBulletViewController.h */,
+				849128051FA9C82C00A87B83 /* XZBulletViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		849128061FA9C82C00A87B83 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				849128071FA9C82C00A87B83 /* XZBulletManager.h */,
+				849128081FA9C82C00A87B83 /* XZBulletManager.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		849128091FA9C82C00A87B83 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8491280A1FA9C82C00A87B83 /* XZBulletView.h */,
+				8491280B1FA9C82C00A87B83 /* XZBulletView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8495BD451FAAAF8600BC52A4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				849127E81FA9C4FE00A87B83 /* Assets.xcassets */,
+				8495BD461FAAAFF600BC52A4 /* LaunchScreen.storyboard */,
+				849127EE1FA9C4FE00A87B83 /* main.m */,
+				849127ED1FA9C4FE00A87B83 /* Info.plist */,
+			);
+			path = "Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,9 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				849127EC1FA9C4FE00A87B83 /* LaunchScreen.storyboard in Resources */,
 				849127E91FA9C4FE00A87B83 /* Assets.xcassets in Resources */,
-				849127E71FA9C4FE00A87B83 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +241,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				849127E41FA9C4FE00A87B83 /* ViewController.m in Sources */,
+				8495BD441FAAADF100BC52A4 /* XZBulletView.m in Sources */,
+				8495BD431FAAADEE00BC52A4 /* XZBulletManager.m in Sources */,
+				8495BD421FAAADEB00BC52A4 /* XZBulletViewController.m in Sources */,
 				849127EF1FA9C4FE00A87B83 /* main.m in Sources */,
 				849127E11FA9C4FE00A87B83 /* AppDelegate.m in Sources */,
 			);
@@ -230,18 +268,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		849127E51FA9C4FE00A87B83 /* Main.storyboard */ = {
+		8495BD461FAAAFF600BC52A4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				849127E61FA9C4FE00A87B83 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		849127EA1FA9C4FE00A87B83 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				849127EB1FA9C4FE00A87B83 /* Base */,
+				8495BD471FAAAFF600BC52A4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -359,6 +389,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = XZBarrageAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.XZ.XZBarrageAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -372,6 +403,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = XZBarrageAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.XZ.XZBarrageAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
